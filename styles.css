@@ -1,0 +1,30 @@
+@font-face {
+    font-family: moderneSans;
+    src: url('modernesans.ttf');
+}
+
+@font-face {
+    font-family: moon;
+    src: url('moon.otf');
+}
+
+@font-face {
+    font-family: lato;
+    src: url('Lato-Light.ttf');
+}
+h1 {
+    line-height: 175%; 
+    padding-right: 160px;
+    font-family: lato;
+}
+
+* {
+    font-family: lato;
+    line-height: 180%;
+    padding-right: 5%;
+}
+
+body {
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 8%, rgba(74,112,233,1) 100%);
+}
